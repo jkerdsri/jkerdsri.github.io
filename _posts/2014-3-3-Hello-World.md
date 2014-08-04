@@ -1,9 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: My first post on Jekyll on Github
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
+I came across this [article] (http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) and the concept about minimalist blog hit me.
+It's so true when I saw other blogs that I always like clean designed blog.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
