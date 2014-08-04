@@ -1,9 +1,8 @@
 ---
-
 layout: page
 
 title: About
-------------
+---
 
 [Linkedin](th.linkedin.com/in/jiradett/)
 
