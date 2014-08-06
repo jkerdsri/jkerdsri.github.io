@@ -1,10 +1,12 @@
 ---
 layout: page
-
 title: About
+published: true
 ---
 
-[Linkedin](th.linkedin.com/in/jiradett/)
+[LinkedIn](th.linkedin.com/in/jiradett/)
+[Facebook](https://www.facebook.com/jiradett)
+
 
 ### Contact me
 
