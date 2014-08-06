@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Using Thai with LaTeX on Mac OS X
