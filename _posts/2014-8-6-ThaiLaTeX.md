@@ -1,8 +1,7 @@
 ---
-published: true
+layout: post
+title: Using Thai with LaTeX on Mac OS X
 ---
-
-## Using Thai with LaTeX on Mac OS X
 
 Here the thing, while I was writhing my thesis using LaTeX with the template that Dr. Gordon created, I have to write a long research report for my work.
 So I have a though of using LaTeX to create that report since I already fond of the way LaTeX writing can help me organize and create beautiful PDF report.
