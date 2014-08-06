@@ -16,38 +16,31 @@ Here is how I did it:
 5. Finally test your environment by creating new document with this code
 
 
-
-    \documentclass[a4paper]{book}
-    \usepackage{xltxtra}
-    \usepackage{polyglossia}
-    \usepackage[top=25mm, bottom=20mm, left=25mm, right=25mm]{geometry}
-    \usepackage[titletoc,toc,title]{appendix}
-    \XeTeXlinebreaklocale "th"
-    \XeTeXlinebreakskip = 0pt plus 1pt
-    \setmainfont{TH SarabunPSK}
-
+```
+\documentclass[a4paper]{book}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\usepackage[top=25mm, bottom=20mm, left=25mm, right=25mm]{geometry}
+\usepackage[titletoc,toc,title]{appendix}
+\XeTeXlinebreaklocale "th"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\setmainfont{TH SarabunPSK}
 \defaultfontfeatures{Scale=1.23}
 \renewcommand{\baselinestretch}{1.2}
-
 \setdefaultlanguage{thai}
 \newfontfamily{\thaifont}[Script=thai]{TH SarabunPSK}
-
 \begin{document}
-
 \frontmatter
 \pagenumbering{thaialph}
 \tableofcontents
-
 \mainmatter
 \chapter{บทแรก}
 \section{บทนำ}
-
 \noindent
 ป้า กะ ปู่ กู้อีจู้ ตัวปกติ\\
 {\itshape ป้า กะ ปู่ กู้อีจู้ ตัวเอียง} \\
 {\bfseries ป้า กะ ปู่ กู้อีจู้ ตัวหนา } \\
 {\bfseries\itshape ป้า กะ ปู่ กู้อีจู้ ตัวหนาเอียง} \\
-
 ทดสอบใช้คำสั่ง \LaTeXe{}\\
 ป้า กะ ปู่ กู้อีจู้ ไฟฟ้า ปัญญา ตัวปกติ\\
 \textbf{ป้า กะ ปู่ กู้อีจู้ ไฟฟ้า ปัญญา ตัวหนา}\\
@@ -55,16 +48,13 @@ Here is how I did it:
 \textsl{ป้า กะ ปู่ กู้อีจู้ ไฟฟ้า ปัญญา ตัวเอน}\\
 \textbf{\textit{ป้า กะ ปู่ กู้อีจู้ ตัวหนาเอียง}}\\
 %%\texttt{ป้า กะ ปู่ กู้อีจู้ ไฟฟ้า ปัญญา ตัวพิมพ์}
-
 \chapter{บทสอง}
 \section{บทนำ}
 xxxx xxxxx xxxxx
 \chapter{บทสาม}
 \section{บทนำ}
 xxxx xxxxx xxxxx
-
 %% \backmatter %% ใช้ไม่ได้ หายหมด
-
 %% ยังไม่ดีมาก แต่ก็ได้ ก ข ค
 \begin{appendices}
 \renewcommand*{\thechapter}{\thaiAlph{chapter}}
@@ -72,7 +62,7 @@ xxxx xxxxx xxxxx
 \chapter{ทดสอบภาคผนวกอีกที} %% ---------------------
 \end{appendices}
 \end{document}
-
+```
 
 You should see Thai language is working correctly, if not check if you system has Thai Sarabun font installed? You can download this official Thai font from SIPA
 
