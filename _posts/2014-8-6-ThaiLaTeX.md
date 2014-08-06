@@ -14,6 +14,8 @@ Here is how I did it:
 3. Then you’ll need a tool with XeTeX engine to write LaTeX. I recommend Texmaker because it’s free and super powerful.
 4. After installing you will have to set up the typesetting by go to Texmaker > Preferences > Quick Build > XeLaTex + View PDF
 5. Finally test your environment by creating new document with this code
+
+
 ```
 \documentclass[a4paper]{book}
 \usepackage{xltxtra}
@@ -72,12 +74,15 @@ xxxx xxxxx xxxxx
 \end{appendices}
 \end{document}
 ```
+
 You should see Thai language is working correctly, if not check if you system has Thai Sarabun font installed? You can download this official Thai font from SIPA
 
 The main point is you’ll need to tell LaTeX to use Thai font
+
 ```
 \usepackage{font spec} % To enable non-standard font selections
 \setmainfont{TH SarabunPSK} % A font with Thai glyphs
 \XeTeXlinebreaklocale ’th_TH’ % Thai-style word-breakings and line-wrappings
 ```
+
 Enjoy Thai LaTeXing ^_^
