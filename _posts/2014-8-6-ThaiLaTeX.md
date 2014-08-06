@@ -16,7 +16,7 @@ Here is how I did it:
 5. Finally test your environment by creating new document with this code
 
 
-```javascript
+```
 \documentclass[a4paper]{book}
 \usepackage{xltxtra}
 \usepackage{polyglossia}
@@ -29,6 +29,7 @@ Here is how I did it:
 \renewcommand{\baselinestretch}{1.2}
 \setdefaultlanguage{thai}
 \newfontfamily{\thaifont}[Script=thai]{TH SarabunPSK}
+
 \begin{document}
 \frontmatter
 \pagenumbering{thaialph}
