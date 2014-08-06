@@ -16,16 +16,15 @@ Here is how I did it:
 5. Finally test your environment by creating new document with this code
 
 
-```
-\documentclass[a4paper]{book}
-\usepackage{xltxtra}
-\usepackage{polyglossia}
-\usepackage[top=25mm, bottom=20mm, left=25mm, right=25mm]{geometry}
-\usepackage[titletoc,toc,title]{appendix}
 
-\XeTeXlinebreaklocale "th"
-\XeTeXlinebreakskip = 0pt plus 1pt
-\setmainfont{TH SarabunPSK}
+    \documentclass[a4paper]{book}
+    \usepackage{xltxtra}
+    \usepackage{polyglossia}
+    \usepackage[top=25mm, bottom=20mm, left=25mm, right=25mm]{geometry}
+    \usepackage[titletoc,toc,title]{appendix}
+    \XeTeXlinebreaklocale "th"
+    \XeTeXlinebreakskip = 0pt plus 1pt
+    \setmainfont{TH SarabunPSK}
 
 \defaultfontfeatures{Scale=1.23}
 \renewcommand{\baselinestretch}{1.2}
@@ -73,16 +72,16 @@ xxxx xxxxx xxxxx
 \chapter{ทดสอบภาคผนวกอีกที} %% ---------------------
 \end{appendices}
 \end{document}
-```
+
 
 You should see Thai language is working correctly, if not check if you system has Thai Sarabun font installed? You can download this official Thai font from SIPA
 
 The main point is you’ll need to tell LaTeX to use Thai font
 
-```
+
 \usepackage{font spec} % To enable non-standard font selections
 \setmainfont{TH SarabunPSK} % A font with Thai glyphs
 \XeTeXlinebreaklocale ’th_TH’ % Thai-style word-breakings and line-wrappings
-```
+
 
 Enjoy Thai LaTeXing ^_^
