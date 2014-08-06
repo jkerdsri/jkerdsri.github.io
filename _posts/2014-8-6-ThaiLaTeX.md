@@ -16,7 +16,7 @@ Here is how I did it:
 5. Finally test your environment by creating new document with this code
 
 
-```html
+```javascript
 \documentclass[a4paper]{book}
 \usepackage{xltxtra}
 \usepackage{polyglossia}
