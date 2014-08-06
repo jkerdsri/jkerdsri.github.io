@@ -18,19 +18,12 @@ Here is how I did it:
 
 ```
 \documentclass[a4paper]{book}
-
 \usepackage{xltxtra}
-
 \usepackage{polyglossia}
-
 \usepackage[top=25mm, bottom=20mm, left=25mm, right=25mm]{geometry}
-
 \usepackage[titletoc,toc,title]{appendix}
-
 \XeTeXlinebreaklocale "th"
-
 \XeTeXlinebreakskip = 0pt plus 1pt
-
 \setmainfont{TH SarabunPSK}
 \defaultfontfeatures{Scale=1.23}
 \renewcommand{\baselinestretch}{1.2}
